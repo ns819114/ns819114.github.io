@@ -14,6 +14,7 @@ export default function App() {
           <div className="hidden md:flex items-center gap-8 text-sm font-medium text-zinc-400">
             <a href="#about" className="hover:text-white transition-colors">About</a>
             <a href="#philosophy" className="hover:text-white transition-colors">Philosophy</a>
+            <a href="#prospera" className="hover:text-white transition-colors">Próspera</a>
             <a href="#divine-numbers" className="hover:text-white transition-colors">Divine Numbers</a>
             <a href="#publications" className="hover:text-white transition-colors">Publications</a>
             <a href="#algorithms" className="hover:text-white transition-colors">Algorithms</a>
@@ -208,6 +209,152 @@ export default function App() {
         </div>
         
         <div className="absolute top-1/3 left-0 w-[600px] h-[600px] bg-purple-500/5 rounded-full blur-[100px] -z-10 pointer-events-none" />
+      </section>
+
+      {/* Próspera Section */}
+      <section id="prospera" className="py-32 px-6 border-y border-white/5 bg-zinc-950 relative overflow-hidden">
+        <div className="max-w-6xl mx-auto relative z-10">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-100px" }}
+            transition={{ duration: 0.8 }}
+          >
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-500/10 text-cyan-400 text-sm font-mono mb-8 border border-cyan-500/20">
+              <span className="w-2 h-2 rounded-full bg-cyan-400 animate-pulse" />
+              <span>My Home Base</span>
+            </div>
+            
+            <h2 className="text-4xl md:text-6xl font-bold mb-6 tracking-tight">Why I Choose Próspera</h2>
+            
+            <p className="text-xl text-zinc-400 mb-12 max-w-3xl leading-relaxed">
+              A charter city on the island of Roatán, Honduras, where freedom isn't just a concept—it's the foundation of daily life.
+            </p>
+          </motion.div>
+
+          <div className="grid lg:grid-cols-2 gap-12 mb-16">
+            <motion.div
+              initial={{ opacity: 0, x: -20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8, delay: 0.2 }}
+              className="space-y-6"
+            >
+              <div className="p-6 rounded-2xl bg-emerald-500/5 border border-emerald-500/20">
+                <h3 className="text-2xl font-bold text-emerald-400 mb-4">What is Próspera?</h3>
+                <p className="text-zinc-400 leading-relaxed mb-4">
+                  Próspera is a <strong className="text-zinc-300">Zone for Employment and Economic Development (ZEDE)</strong>—a charter city operating under a distinct fiscal, legal, and regulatory framework that grants it autonomy from the national government of Honduras.
+                </p>
+                <p className="text-zinc-400 leading-relaxed">
+                  Located on the Caribbean island of Roatán, Próspera represents a modern iteration of the charter city model, offering streamlined business regulations, economic freedom, and regulatory efficiency.
+                </p>
+              </div>
+
+              <div className="p-6 rounded-2xl bg-cyan-500/5 border border-cyan-500/20">
+                <h3 className="text-2xl font-bold text-cyan-400 mb-4">Governance & Autonomy</h3>
+                <p className="text-zinc-400 leading-relaxed mb-4">
+                  Próspera maintains its own civil and commercial codes. Businesses can select regulations from approved foreign jurisdictions, propose custom regulations, or operate under common law.
+                </p>
+                <p className="text-zinc-300 italic">
+                  "I follow no one's rules but the laws of mathematics."
+                </p>
+              </div>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, x: 20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8, delay: 0.4 }}
+              className="space-y-6"
+            >
+              <div className="p-6 rounded-2xl bg-amber-500/5 border border-amber-500/20">
+                <h3 className="text-2xl font-bold text-amber-400 mb-4">Economic Freedom</h3>
+                <ul className="space-y-3 text-zinc-400">
+                  <li className="flex items-start gap-3">
+                    <span className="text-emerald-400 font-mono">1%</span>
+                    <span>Tax on business revenue</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="text-emerald-400 font-mono">5%</span>
+                    <span>Personal income tax</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="text-emerald-400 font-mono">2.5%</span>
+                    <span>Sales tax</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="text-emerald-400 font-mono">₿</span>
+                    <span>Bitcoin recognized as legal tender</span>
+                  </li>
+                </ul>
+              </div>
+
+              <div className="p-6 rounded-2xl bg-purple-500/5 border border-purple-500/20">
+                <h3 className="text-2xl font-bold text-purple-400 mb-4">Innovation Hub</h3>
+                <p className="text-zinc-400 leading-relaxed mb-4">
+                  Backed by visionary investors including Peter Thiel, Marc Andreessen, and Balaji Srinivasan through Pronomos Capital. In 2025, Coinbase Ventures joined to grow financial inclusion and innovation.
+                </p>
+                <p className="text-zinc-400 leading-relaxed">
+                  The city hosts crypto summits, biotech startup events, and attracts pioneers who believe in building the future.
+                </p>
+              </div>
+            </motion.div>
+          </div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8, delay: 0.6 }}
+            className="p-8 rounded-3xl bg-gradient-to-br from-emerald-500/10 to-cyan-500/10 border border-emerald-500/20"
+          >
+            <h3 className="text-3xl font-bold mb-6 text-white">Why I Live Here</h3>
+            <div className="grid md:grid-cols-3 gap-6">
+              <div>
+                <h4 className="text-lg font-semibold text-emerald-400 mb-2">True Freedom</h4>
+                <p className="text-zinc-400 text-sm leading-relaxed">
+                  No bureaucratic interference. No arbitrary regulations. Just the freedom to build, create, and innovate without asking permission.
+                </p>
+              </div>
+              <div>
+                <h4 className="text-lg font-semibold text-cyan-400 mb-2">Crypto-Native</h4>
+                <p className="text-zinc-400 text-sm leading-relaxed">
+                  Bitcoin is legal tender. The entire ecosystem is designed for the digital economy and blockchain innovation.
+                </p>
+              </div>
+              <div>
+                <h4 className="text-lg font-semibold text-purple-400 mb-2">Like-Minded Community</h4>
+                <p className="text-zinc-400 text-sm leading-relaxed">
+                  Surrounded by people who understand that decentralized communities—not governments—create prosperity.
+                </p>
+              </div>
+            </div>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8, delay: 0.8 }}
+            className="mt-12 text-center"
+          >
+            <p className="text-zinc-500 mb-4">
+              Learn more about Próspera on Wikipedia
+            </p>
+            <a 
+              href="https://en.wikipedia.org/wiki/Pr%C3%B3spera" 
+              target="_blank" 
+              rel="noreferrer"
+              className="inline-flex items-center gap-2 px-6 py-3 bg-white/5 hover:bg-white/10 border border-white/10 rounded-full transition-colors text-cyan-400"
+            >
+              <span>Wikipedia - Próspera</span>
+              <ChevronRight className="w-4 h-4" />
+            </a>
+          </motion.div>
+        </div>
+        
+        <div className="absolute top-1/4 left-0 w-[500px] h-[500px] bg-cyan-500/5 rounded-full blur-[100px] -z-10 pointer-events-none" />
       </section>
 
       <section id="divine-numbers" className="py-32 px-6 border-y border-white/5 bg-zinc-900/20 relative overflow-hidden">
