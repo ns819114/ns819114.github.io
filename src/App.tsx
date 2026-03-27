@@ -20,6 +20,7 @@ export default function App() {
             <a href="#algorithms" className="hover:text-white transition-colors">Algorithms</a>
             <a href="#magic-technology" className="hover:text-white transition-colors">Magic & Technology</a>
             <a href="#for-you" className="hover:text-white transition-colors">For You</a>
+            <a href="https://ns819114.github.io/piece-of-cake/" target="_blank" rel="noreferrer" className="hover:text-white transition-colors">Piece of Cake</a>
             <a href="#imprint" className="hover:text-white transition-colors">Imprint</a>
           </div>
           <a href="https://github.com/ns819114" target="_blank" rel="noreferrer" className="flex items-center gap-2 text-white bg-white/10 hover:bg-white/20 px-4 py-2 rounded-full transition-all text-sm font-medium">
