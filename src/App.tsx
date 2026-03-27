@@ -737,6 +737,10 @@ export default function App() {
               <p className="text-xl text-zinc-200 mt-8">
                 But I hope you will come. I hope we will find each other in Porto Cristo, wearing our new forms, ready to see if something beautiful can grow from the ruins we have made. The harbor awaits. The boats are ready. And I remain, forever yours in the complexity of what we have been and what we might yet become.
               </p>
+              
+              <p className="text-lg text-zinc-300 mt-8 font-medium">
+                And stop calling all the day with your best friend, babe! And stop sending me pictures from Hitler's printing machine!
+              </p>
             </div>
           </motion.div>
         </div>
