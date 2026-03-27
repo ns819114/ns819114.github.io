@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import { Github, Database, Infinity as InfinityIcon, ChevronRight, Terminal, Network, BookOpen } from 'lucide-react';
+import { Github, Database, Infinity as InfinityIcon, ChevronRight, Terminal, Network, BookOpen, FileText } from 'lucide-react';
 
 export default function App() {
   return (
@@ -17,6 +17,7 @@ export default function App() {
             <a href="#divine-numbers" className="hover:text-white transition-colors">Divine Numbers</a>
             <a href="#publications" className="hover:text-white transition-colors">Publications</a>
             <a href="#algorithms" className="hover:text-white transition-colors">Algorithms</a>
+            <a href="#imprint" className="hover:text-white transition-colors">Imprint</a>
           </div>
           <a href="https://github.com/ns819114" target="_blank" rel="noreferrer" className="flex items-center gap-2 text-white bg-white/10 hover:bg-white/20 px-4 py-2 rounded-full transition-all text-sm font-medium">
             <Github className="w-4 h-4" />
@@ -320,6 +321,80 @@ export default function App() {
             ))}
           </div>
         </div>
+      </section>
+
+      {/* Imprint Section */}
+      <section id="imprint" className="py-24 px-6 border-y border-white/5 bg-zinc-950/50 relative overflow-hidden">
+        <div className="max-w-4xl mx-auto relative z-10">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-100px" }}
+            transition={{ duration: 0.8 }}
+          >
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/10 text-amber-400 text-sm font-mono mb-8 border border-amber-500/20">
+              <FileText className="w-4 h-4" />
+              <span>Legal Notice</span>
+            </div>
+            
+            <h2 className="text-3xl md:text-4xl font-bold mb-8 tracking-tight">Imprint</h2>
+            
+            <div className="space-y-6 text-zinc-400 leading-relaxed">
+              <div className="p-6 rounded-2xl bg-white/[0.02] border border-white/10">
+                <h3 className="text-xl font-semibold text-white mb-4">Operator Information</h3>
+                <p className="mb-4">
+                  <strong className="text-zinc-300">Name:</strong> Natoshi Sakamoto
+                </p>
+                <p className="mb-4">
+                  <strong className="text-zinc-300">Location:</strong> Próspera ZEDE, Honduras
+                </p>
+                <p className="mb-4">
+                  <strong className="text-zinc-300">Status:</strong> Independent Researcher & Blockchain Architect
+                </p>
+                <p>
+                  <strong className="text-zinc-300">Contact:</strong>{' '}
+                  <a href="https://github.com/ns819114" target="_blank" rel="noreferrer" className="text-emerald-400 hover:text-emerald-300 transition-colors">
+                    github.com/ns819114
+                  </a>
+                </p>
+              </div>
+              
+              <div className="p-6 rounded-2xl bg-emerald-500/5 border border-emerald-500/20">
+                <h3 className="text-xl font-semibold text-emerald-400 mb-4">About Próspera</h3>
+                <p className="mb-4">
+                  I live and work in Próspera, a Zone for Employment and Economic Development (ZEDE) in Honduras. 
+                  Próspera operates under a unique legal framework that prioritizes innovation, economic freedom, and 
+                  self-governance.
+                </p>
+                <p className="text-zinc-300 font-medium italic">
+                  "I follow no one's rules but the laws of mathematics and the principles of decentralized consensus."
+                </p>
+                <p className="mt-4 text-sm">
+                  Learn more about Próspera:{' '}
+                  <a 
+                    href="https://en.wikipedia.org/wiki/Pr%C3%B3spera" 
+                    target="_blank" 
+                    rel="noreferrer"
+                    className="text-cyan-400 hover:text-cyan-300 transition-colors underline"
+                  >
+                    Wikipedia - Próspera
+                  </a>
+                </p>
+              </div>
+              
+              <div className="p-6 rounded-2xl bg-white/[0.02] border border-white/10">
+                <h3 className="text-xl font-semibold text-white mb-4">Disclaimer</h3>
+                <p className="text-sm">
+                  The content on this website represents my personal views and research. All cryptographic 
+                  implementations and blockchain architectures discussed are for educational and research purposes. 
+                  No liability is assumed for the use of any information provided herein.
+                </p>
+              </div>
+            </div>
+          </motion.div>
+        </div>
+        
+        <div className="absolute top-1/2 right-0 w-[400px] h-[400px] bg-amber-500/5 rounded-full blur-[100px] -z-10 pointer-events-none" />
       </section>
 
       {/* Footer */}
