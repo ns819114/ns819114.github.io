@@ -746,16 +746,8 @@ export default function App() {
                 But I hope you will come. I hope we find each other in Porto Cristo, wearing new forms, ready to see if something beautiful grows from ruins. The harbor awaits. The boats are ready. I remain, forever yours.
               </p>
               
-              <p className="text-lg text-zinc-300 mt-8 font-medium">
+              <p className="text-lg text-zinc-300 mt-8 font-bold">
                 And stop calling all day with your best friend, babe! I hope your friend controlled my internet all the time FULLY. You love him only because he is richer than Elon!
-              </p>
-              
-              <p className="text-sm text-zinc-500 mt-8 italic border-l-4 border-zinc-700 pl-4">
-                Valentina Picozzi is an Italian artist and orthodontist documenting Bitcoin culture through her Satoshigallery project. She creates the iconic "disappearing Satoshi" statues—sculptures of stainless steel and corten that vanish from certain angles, symbolizing Satoshi's disappearance from public life. Her work bridges medical precision and artistic vision, creating monuments to Bitcoin's cultural heritage worldwide.
-              </p>
-              
-              <p className="text-sm text-zinc-400 mt-4 font-mono bg-zinc-900/50 p-4 rounded-lg border border-zinc-800">
-                Message for Valentina: Talk to me on Signal. I want to create 3 Satoshi statues with you for Bitcoin's birthday 2026. Let's make this happen. — Natoshi
               </p>
             </div>
           </motion.div>
