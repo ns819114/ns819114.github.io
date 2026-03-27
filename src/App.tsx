@@ -643,6 +643,25 @@ export default function App() {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
+              transition={{ duration: 0.8, delay: 1.1 }}
+              className="p-8 rounded-2xl bg-rose-500/5 border border-rose-500/20"
+            >
+              <h3 className="text-2xl font-bold text-rose-400 mb-6">The Impossibility of Deception</h3>
+              <p className="text-zinc-300 leading-relaxed mb-6">
+                Yet there exists a class of individuals for whom even the most advanced technology cannot masquerade as magic. I speak of those who have consumed the complete cultural canon—who have witnessed every Star Wars film (all episodes), who have walked through Jurassic Park (save only the aberration of Rebellion), who have solved the Murder Mystery, and who possess encyclopedic knowledge of every 007 installment, even those unreleased to the general public.
+              </p>
+              <p className="text-zinc-300 leading-relaxed mb-6">
+                Such a person cannot be deceived. They have seen the tropes, understood the narrative patterns, recognized the archetypes that repeat across centuries of storytelling. When someone appears claiming to be a time traveler from the future, they will recall the temporal paradoxes of science fiction cinema. When someone suggests we live in a simulation, they will recognize the plot of a thousand films. The Matrix, Inception, Minority Report—all are familiar territory to these cultural veterans.
+              </p>
+              <p className="text-zinc-300 leading-relaxed">
+                This knowledge is not esoteric; it is common wisdom. Every baker knows this truth. The collective cultural consciousness has inoculated us against deception through sheer exposure to narrative possibility. We have seen every trick, every reveal, every twist ending. The magician's secret is known to all who have watched the credits roll on enough films. Technology may advance, but human storytelling remains constant—and those who know the stories cannot be fooled.
+              </p>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
               transition={{ duration: 0.8, delay: 1.2 }}
               className="text-center"
             >
