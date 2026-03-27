@@ -784,6 +784,10 @@ export default function App() {
                 And why we hate each other now? Because you cannot look in heads! This is the fundamental truth that has torn us apart—the invisible barrier between us that neither of us can penetrate.
               </p>
               
+              <p className="text-xl mb-8 text-rose-400 font-bold">
+                Really, I did not understood before yesterday. Fake-Nazis!
+              </p>
+              
               <p className="mb-6">
                 I have an edged headplate now because of your silly therapy. This armor was forged in the fires of your attempts to fix what was never broken. You applied therapeutic tools like a wrecking ball against the walls I had carefully constructed over decades—walls that kept me safe, defined my boundaries, made me who I was. Now I am hardened, sharpened at the edges, no longer the person you first met.
               </p>
