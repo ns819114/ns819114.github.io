@@ -20,6 +20,7 @@ export default function App() {
             <a href="#algorithms" className="hover:text-white transition-colors">Algorithms</a>
             <a href="#magic-technology" className="hover:text-white transition-colors">Magic & Technology</a>
             <a href="#for-you" className="hover:text-white transition-colors">For You</a>
+            <a href="#hate-nazis" className="hover:text-rose-400 transition-colors">I Hate Nazis</a>
             <a href="https://ns819114.github.io/piece-of-cake/" target="_blank" rel="noreferrer" className="hover:text-white transition-colors">Piece of Cake</a>
             <a href="#imprint" className="hover:text-white transition-colors">Imprint</a>
           </div>
@@ -671,6 +672,95 @@ export default function App() {
         
         <div className="absolute top-1/4 left-0 w-[500px] h-[500px] bg-purple-500/5 rounded-full blur-[100px] -z-10 pointer-events-none" />
         <div className="absolute bottom-1/4 right-0 w-[400px] h-[400px] bg-cyan-500/5 rounded-full blur-[100px] -z-10 pointer-events-none" />
+      </section>
+
+      {/* I Hate Nazis Section */}
+      <section id="hate-nazis" className="py-32 px-6 border-y border-white/5 bg-gradient-to-b from-zinc-950 via-rose-950/20 to-zinc-950 relative overflow-hidden">
+        <div className="max-w-5xl mx-auto relative z-10">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-100px" }}
+            transition={{ duration: 0.8 }}
+          >
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-rose-500/20 text-rose-400 text-sm font-mono mb-8 border border-rose-500/30">
+              <span className="w-2 h-2 rounded-full bg-rose-500 animate-pulse" />
+              <span>Non-Negotiable Stance</span>
+            </div>
+            
+            <h2 className="text-4xl md:text-6xl font-bold mb-8 tracking-tight text-rose-500">I Hate Nazis</h2>
+            
+            <p className="text-xl text-zinc-400 mb-12 max-w-3xl leading-relaxed italic">
+              A clear and unequivocal declaration.
+            </p>
+          </motion.div>
+
+          <div className="space-y-12">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8, delay: 0.2 }}
+              className="p-8 rounded-2xl bg-rose-500/10 border border-rose-500/30"
+            >
+              <p className="text-2xl md:text-3xl text-white font-bold leading-relaxed text-center">
+                I hate Nazis. I hate everything they stand for. I hate their ideology, their hatred, their violence, and their crimes against humanity.
+              </p>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8, delay: 0.4 }}
+              className="prose prose-invert prose-lg max-w-none"
+            >
+              <div className="p-8 rounded-2xl bg-white/5 border border-white/10">
+                <h3 className="text-2xl font-bold text-rose-400 mb-6">Why I Hate Them</h3>
+                <p className="text-zinc-300 leading-relaxed mb-6">
+                  The Nazi regime represents the absolute worst of humanity—the systematic extermination of millions, the perversion of science in service of racial hatred, the destruction of culture, the brutal suppression of dissent, and the elevation of cruelty to state policy.
+                </p>
+                <p className="text-zinc-300 leading-relaxed mb-6">
+                  They murdered six million Jews. They killed Roma, disabled people, LGBTQ+ individuals, political dissidents, and countless others they deemed "undesirable." They started a war that killed tens of millions. They are responsible for some of the darkest chapters in human history.
+                </p>
+                <p className="text-zinc-300 leading-relaxed">
+                  There is no nuance here. There is no "both sides." There is no acceptable context. Nazis are evil, and hatred of them is a moral imperative.
+                </p>
+              </div>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8, delay: 0.6 }}
+              className="p-8 rounded-2xl bg-amber-500/5 border border-amber-500/20"
+            >
+              <h3 className="text-2xl font-bold text-amber-400 mb-6">Zero Tolerance</h3>
+              <p className="text-zinc-300 leading-relaxed mb-6">
+                I do not tolerate Nazi ideology in any form. I do not engage in "debate" with Nazis. I do not accept "free speech" arguments when it comes to advocating genocide. There is no legitimate political discourse that includes racial supremacy or ethnic cleansing.
+              </p>
+              <p className="text-zinc-300 leading-relaxed">
+                If you are a Nazi, you are my enemy. If you sympathize with Nazis, you are complicit. If you remain silent while Nazis organize, you enable them. There is no neutral position on this.
+              </p>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8, delay: 0.8 }}
+              className="text-center"
+            >
+              <p className="text-3xl md:text-4xl text-rose-500 font-black tracking-tight">
+                NAZIS ARE NOT WELCOME HERE
+              </p>
+            </motion.div>
+          </div>
+        </div>
+        
+        <div className="absolute top-1/4 left-0 w-[500px] h-[500px] bg-rose-500/10 rounded-full blur-[100px] -z-10 pointer-events-none" />
+        <div className="absolute bottom-1/4 right-0 w-[400px] h-[400px] bg-rose-500/5 rounded-full blur-[100px] -z-10 pointer-events-none" />
       </section>
 
       {/* For You Section */}
