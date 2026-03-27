@@ -371,10 +371,6 @@ export default function App() {
                 <h4 className="text-lg font-semibold text-blue-400 group-hover:text-blue-300">Tim Draper</h4>
                 <p className="text-sm text-zinc-500">Investor, Draper Associates</p>
               </a>
-              <div className="p-4 rounded-xl bg-yellow-500/5 border border-yellow-500/20">
-                <h4 className="text-lg font-semibold text-yellow-400">My Ukrainian Buddy</h4>
-                <p className="text-sm text-zinc-500">Master Builder of Hills & Woods • Daily Situp Partner</p>
-              </div>
             </div>
           </motion.div>
 
