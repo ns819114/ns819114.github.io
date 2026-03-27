@@ -841,10 +841,16 @@ export default function App() {
           <div className="text-zinc-600 text-sm text-center md:text-left max-w-md">
             "I believe decentralized communities—not governments—can create and maintain the infrastructure we rely on."
           </div>
-          <a href="https://github.com/ns819114" target="_blank" rel="noreferrer" className="text-zinc-500 hover:text-white transition-colors">
-            <Github className="w-6 h-6" />
-            <span className="sr-only">GitHub Profile</span>
-          </a>
+          <div className="flex items-center gap-4">
+            <a href="https://github.com/ns819114" target="_blank" rel="noreferrer" className="text-zinc-500 hover:text-white transition-colors">
+              <Github className="w-6 h-6" />
+              <span className="sr-only">GitHub Profile</span>
+            </a>
+            <a href="https://www.youtube.com/watch?v=95E23q15hfo" target="_blank" rel="noreferrer" className="text-zinc-500 hover:text-red-400 transition-colors">
+              <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/></svg>
+              <span className="sr-only">YouTube</span>
+            </a>
+          </div>
         </div>
       </footer>
     </div>
