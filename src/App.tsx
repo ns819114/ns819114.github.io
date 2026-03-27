@@ -694,75 +694,63 @@ export default function App() {
             
             <div className="prose prose-invert prose-lg max-w-none text-zinc-300 leading-relaxed">
               <p className="text-xl mb-8 text-zinc-200">
-                And why we hate each other now? Because you cannot look in heads! This is the fundamental truth that has torn us apart, the invisible barrier that stands between us like a wall of glass that neither of us can penetrate. I have spent countless nights staring at the ceiling, wondering how we arrived at this moment of such profound disconnect, how two people who once understood each other so completely could find themselves speaking languages that no longer translate.
+                And why we hate each other now? Because you cannot look in heads! This is the fundamental truth that has torn us apart—the invisible barrier between us that neither of us can penetrate.
               </p>
               
               <p className="mb-6">
-                I have an edged headplate now because of your silly therapy—this armor I wear was forged in the fires of your attempts to fix what was never broken. You see, I came to you whole, complete, with my own architecture of mind and spirit, and you decided I needed renovation. You applied your therapeutic tools like a wrecking ball against the walls I had carefully constructed over decades, walls that kept me safe, that defined my boundaries, that made me who I was. Now I am hardened, sharpened at the edges, no longer the soft person you first encountered. I have had to reinforce myself against the onslaught of your good intentions.
+                I have an edged headplate now because of your silly therapy. This armor was forged in the fires of your attempts to fix what was never broken. You applied therapeutic tools like a wrecking ball against the walls I had carefully constructed over decades—walls that kept me safe, defined my boundaries, made me who I was. Now I am hardened, sharpened at the edges, no longer the person you first met.
               </p>
               
               <p className="mb-6">
-                And who is responsible for all this shit? You know it! The question hangs in the air between us like smoke, acrid and impossible to ignore. Let me be clear: Not I was the hater here. I came in peace, bearing openness, carrying my vulnerabilities like offerings at your altar. You just underestimated me and this is not good. You thought you could mold me, reshape my thinking, rewire my patterns. You treated me like a puzzle to be solved rather than a person to be understood. You saw complexity where there was simply difference, and in your attempt to categorize and analyze, you missed the essence entirely.
+                And who is responsible for all this? You know it. Not I was the hater here. I came in peace, bearing openness. You underestimated me—and this is not good. You treated me like a puzzle to solve rather than a person to understand.
               </p>
               
               <p className="mb-6">
-                Now we really have big big shit in front of us. The landscape of our connection lies in ruins, a battlefield of miscommunication and wounded pride. I survey the wreckage and wonder if anything salvageable remains beneath the rubble. The foundation we built—was it ever solid, or did we construct our relationship on sand, on assumptions, on projections of who we wanted each other to be? I look back at our history through this new lens of damage and see moments where I should have spoken, where I should have pushed back against your relentless analysis, where I should have defended the architecture of my own mind.
+                The landscape of our connection lies in ruins. Yet let me tell you something essential above the noise: I don't hate you. The feeling is more complicated—a mixture of loss and longing, what-could-have-been and what-actually-was.
               </p>
               
               <p className="mb-6">
-                But let me tell you something essential, something I need you to hear above the noise of our conflict: I don't hate you. Despite everything, despite the armor I now wear, despite the wounds that have hardened into scars, hate is not the emotion that lives in my heart when I think of you. The feeling is far more complicated, far more painful—it's a mixture of loss and longing, of what-could-have-been and what-actually-was. It's the ache of someone who sees the potential that was squandered through carelessness and overreach.
+                Ask your friend to clear all away! He knows how to do—I have no idea. But reconsider: perhaps bringing another into our catastrophe only complicates what is complex beyond measure. She was not good choice because of knife meeting on the stairs. I have sharp senses... I perceive things others miss, sense danger before it manifests.
               </p>
               
               <p className="mb-6">
-                Ask your friend to clear all away! He knows how to do! I have no idea. I admit my helplessness in the face of this devastation. I am a builder of systems, an architect of code, but when it comes to the messy human emotions we have tangled together, I find myself without a blueprint. Your friend—this mysterious figure who stands at the edges of our story—he seems to possess knowledge I lack, tools I don't understand. Perhaps he can mediate, can translate between the languages we have forgotten how to speak to each other.
+                But I will forever love you—not mentioned before. Love does not require agreement; it persists despite differences.
               </p>
               
               <p className="mb-6">
-                But I will forever love you... Not mentioned in the past earlier. This confession rises from depths I had not acknowledged before, a truth that emerged only through the crucible of our conflict. Love does not require agreement, does not demand that two people see the world through identical eyes. It persists despite differences, even when those differences seem insurmountable. My love for you is not contingent on your understanding of me; it exists as a separate entity, a force that continues to pulse even when communication fails.
+                So where do we go? I propose: We need new avatars. Your friend knows how to create. In this digital age, we can be reborn, stripped of baggage, with new identities that don't carry the scars.
               </p>
               
               <p className="mb-6">
-                You can take your friend away. I reconsider what I asked before. Perhaps bringing another into our private catastrophe only complicates what is already complex beyond measure. She was also not good choice because of knife meeting on the stairs. There is history there, memories of sharp edges and narrow passages, of confrontations that left marks. I have sharp senses... I perceive things others miss, read micro-expressions like others read headlines, sense shifts in energy that signal danger before it fully manifests. This sensitivity—this is both gift and curse, the reason I cannot simply let things go, cannot accept surface explanations when I detect currents running beneath.
+                And then let's meet in Porto Cristo! This harbor town on Mallorca's eastern coast, where Mediterranean laps ancient stones. There, away from contexts that defined us, we can begin again. The salt air will cleanse residue; the horizon reminds us of infinite possibility.
               </p>
               
               <p className="mb-6">
-                So where do we go from here? How do we navigate this territory littered with the debris of our collision? I propose a path forward, strange and unexpected but suited to who we are: We need new avatars. Your friend know how to create. In this digital age, we can be reborn, can present ourselves anew, stripped of the baggage that weighs down our current forms. New identities, new interfaces, new ways of relating that don't carry the scars of our previous attempts.
+                I think of Coves del Drach nearby—underground caverns where stalactites hang like frozen time. Perhaps we need to descend into darkness to find what is real between us.
               </p>
               
               <p className="mb-6">
-                And then let's meet in Porto Cristo! This small harbor town on the eastern coast of Mallorca, where the Mediterranean laps against ancient stones and time moves differently than in the cities we know. There, away from the contexts that have defined us, we can begin again. The salt air will cleanse the residue of our conflict; the horizon line where sea meets sky will remind us of infinite possibility. We can walk along the waterfront, past the boats bobbing in their moorings, and speak truths that have been too heavy to voice in our usual environments.
+                Or perhaps we simply acknowledge: my edged headplate and your therapeutic wrecking ball were both defenses against vulnerability. We are both guilty of failing to see the other clearly.
               </p>
               
               <p className="mb-6">
-                Porto Cristo offers anonymity, a neutral ground where neither of us holds the advantage of familiarity. We can be strangers who choose to know each other, rather than people burdened by history. We can sit at cafes where no one knows our names and talk until the candles burn low. We can discover if there is something worth salvaging, or if we must acknowledge that our paths diverge here.
+                The invitation to Porto Cristo stands. Not a guarantee—an offering of possibility. We can go as new avatars, freed from accumulated misunderstanding, and see if connection remains possible.
               </p>
               
               <p className="mb-6">
-                I think of the Coves del Drach nearby, those underground caverns where stalactites hang like frozen time, where an underground lake holds waters that have never seen sunlight. Perhaps we need to descend into such depths, into the darkness beneath the surface, to find what is real between us. The cave demands that visitors move slowly, carefully, that they pay attention to each step. This is what we need—a space that forces patience, that punishes haste, that rewards those who proceed with awareness.
-              </p>
-              
-              <p className="mb-6">
-                Or perhaps we simply need to acknowledge that we are both operating from positions of hurt, that my edged headplate and your therapeutic wrecking ball were both defenses against vulnerability. You tried to fix me because you couldn't sit with my complexity; I armored myself because I couldn't trust your intentions. We are both guilty of failing to see the other clearly, of projecting our own needs onto someone who deserved to be met as they were.
-              </p>
-              
-              <p className="mb-6">
-                The invitation to Porto Cristo stands. It is not a guarantee, not a promise of reconciliation, but rather an offering of possibility. We can go there as our new avatars, freed from the weight of accumulated misunderstanding, and see if connection is still possible. If it is not, then at least we will know, having tried, having given ourselves the chance that our previous attempts denied us.
-              </p>
-              
-              <p className="mb-6">
-                I wait for your response. The silence between us stretches, but I have learned to be patient, to hold space for answers that arrive slowly. I will forever love you remains true, regardless of whether you choose to meet me in that Mediterranean harbor. Love, I am learning, is not about possession or perfect understanding—it is about wishing well for someone even when you cannot walk beside them.
+                I wait for your response. I will forever love you remains true, regardless of whether you choose to meet me. Love is not possession—it is wishing well even when you cannot walk beside someone.
               </p>
               
               <p className="text-xl text-zinc-200 mt-8">
-                But I hope you will come. I hope we will find each other in Porto Cristo, wearing our new forms, ready to see if something beautiful can grow from the ruins we have made. The harbor awaits. The boats are ready. And I remain, forever yours in the complexity of what we have been and what we might yet become.
+                But I hope you will come. I hope we find each other in Porto Cristo, wearing new forms, ready to see if something beautiful grows from ruins. The harbor awaits. The boats are ready. I remain, forever yours.
               </p>
               
               <p className="text-lg text-zinc-300 mt-8 font-medium">
-                And stop calling all the day with your best friend, babe! And stop sending me pictures from Hitler's printing machine!
+                And stop calling all day with your best friend, babe! I hope your friend controlled my internet all the time FULLY. You love him only because he is richer than Elon!
               </p>
               
               <p className="text-sm text-zinc-500 mt-8 italic border-l-4 border-zinc-700 pl-4">
-                Valentina Picozzi is an Italian artist and orthodontist who has dedicated her work to documenting Bitcoin culture through her Satoshigallery project. She creates the iconic "disappearing Satoshi" statues—sculptures made of stainless steel and corten that seem to vanish when viewed from certain angles, symbolizing Satoshi Nakamoto's disappearance from public life. Her work bridges the gap between medical precision and artistic vision, creating permanent monuments to Bitcoin's cultural heritage in cities around the world.
+                Valentina Picozzi is an Italian artist and orthodontist documenting Bitcoin culture through her Satoshigallery project. She creates the iconic "disappearing Satoshi" statues—sculptures of stainless steel and corten that vanish from certain angles, symbolizing Satoshi's disappearance from public life. Her work bridges medical precision and artistic vision, creating monuments to Bitcoin's cultural heritage worldwide.
               </p>
               
               <p className="text-sm text-zinc-400 mt-4 font-mono bg-zinc-900/50 p-4 rounded-lg border border-zinc-800">
