@@ -337,6 +337,45 @@ export default function App() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8, delay: 0.8 }}
+            className="mt-16 p-8 rounded-3xl bg-gradient-to-br from-purple-500/10 to-emerald-500/10 border border-purple-500/20"
+          >
+            <h3 className="text-3xl font-bold mb-8 text-white text-center">The Próspera Community</h3>
+            <p className="text-zinc-400 text-center mb-8 max-w-2xl mx-auto">
+              Próspera attracts pioneers from 40+ countries—developers, scientists, entrepreneurs, and visionaries building the future. Here are some key figures in our ecosystem:
+            </p>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+              <a href="https://www.erickbrimen.com/" target="_blank" rel="noreferrer" className="p-4 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 transition-colors group">
+                <h4 className="text-lg font-semibold text-emerald-400 group-hover:text-emerald-300">Erick Brimen</h4>
+                <p className="text-sm text-zinc-500">Founder & CEO, Honduras Próspera LLC</p>
+              </a>
+              <a href="https://patrikschumacher.com/" target="_blank" rel="noreferrer" className="p-4 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 transition-colors group">
+                <h4 className="text-lg font-semibold text-cyan-400 group-hover:text-cyan-300">Patrik Schumacher</h4>
+                <p className="text-sm text-zinc-500">Principal Architect, Zaha Hadid Architects (German)</p>
+              </a>
+              <a href="https://free-cities.org/" target="_blank" rel="noreferrer" className="p-4 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 transition-colors group">
+                <h4 className="text-lg font-semibold text-purple-400 group-hover:text-purple-300">Gabriel Delgado</h4>
+                <p className="text-sm text-zinc-500">Co-founder, Free Cities Foundation</p>
+              </a>
+              <a href="https://balajis.com/" target="_blank" rel="noreferrer" className="p-4 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 transition-colors group">
+                <h4 className="text-lg font-semibold text-amber-400 group-hover:text-amber-300">Balaji Srinivasan</h4>
+                <p className="text-sm text-zinc-500">Investor, Author of The Network State</p>
+              </a>
+              <a href="https://bryan-johnson.com/" target="_blank" rel="noreferrer" className="p-4 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 transition-colors group">
+                <h4 className="text-lg font-semibold text-rose-400 group-hover:text-rose-300">Bryan Johnson</h4>
+                <p className="text-sm text-zinc-500">Blueprint, Anti-aging Pioneer</p>
+              </a>
+              <a href="https://www.drapervc.com/" target="_blank" rel="noreferrer" className="p-4 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 transition-colors group">
+                <h4 className="text-lg font-semibold text-blue-400 group-hover:text-blue-300">Tim Draper</h4>
+                <p className="text-sm text-zinc-500">Investor, Draper Associates</p>
+              </a>
+            </div>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8, delay: 1.0 }}
             className="mt-12 text-center"
           >
             <p className="text-zinc-500 mb-4">
