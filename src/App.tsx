@@ -760,6 +760,14 @@ export default function App() {
               <p className="text-lg text-zinc-300 mt-8 font-medium">
                 And stop calling all the day with your best friend, babe! And stop sending me pictures from Hitler's printing machine!
               </p>
+              
+              <p className="text-sm text-zinc-500 mt-8 italic border-l-4 border-zinc-700 pl-4">
+                Valentina Picozzi is an Italian artist and orthodontist who has dedicated her work to documenting Bitcoin culture through her Satoshigallery project. She creates the iconic "disappearing Satoshi" statues—sculptures made of stainless steel and corten that seem to vanish when viewed from certain angles, symbolizing Satoshi Nakamoto's disappearance from public life. Her work bridges the gap between medical precision and artistic vision, creating permanent monuments to Bitcoin's cultural heritage in cities around the world. Her mission aligns with Operation Noshi: to chronicle and preserve the values, history, and philosophy of the cyberpunk movement through public art that honors the pseudonymous creator who started it all.
+              </p>
+              
+              <p className="text-sm text-zinc-400 mt-4 font-mono bg-zinc-900/50 p-4 rounded-lg border border-zinc-800">
+                Message for Valentina: Talk to me on Signal. I want to create 3 Satoshi statues with you for Bitcoin's birthday 2026. Let's make this happen.
+              </p>
             </div>
           </motion.div>
         </div>
