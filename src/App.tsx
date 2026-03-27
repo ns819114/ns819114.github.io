@@ -745,6 +745,10 @@ export default function App() {
               <p className="text-lg text-zinc-300 mt-8 font-bold">
                 And stop calling all day with your best friend, babe! I hope your friend controlled my internet all the time FULLY. You love him only because he is richer than Elon!
               </p>
+              
+              <p className="text-2xl text-rose-400 mt-8 font-bold text-center">
+                Wanna talk?
+              </p>
             </div>
           </motion.div>
         </div>
