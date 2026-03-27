@@ -18,6 +18,7 @@ export default function App() {
             <a href="#divine-numbers" className="hover:text-white transition-colors">Divine Numbers</a>
             <a href="#publications" className="hover:text-white transition-colors">Publications</a>
             <a href="#algorithms" className="hover:text-white transition-colors">Algorithms</a>
+            <a href="#magic-technology" className="hover:text-white transition-colors">Magic & Technology</a>
             <a href="#for-you" className="hover:text-white transition-colors">For You</a>
             <a href="#imprint" className="hover:text-white transition-colors">Imprint</a>
           </div>
