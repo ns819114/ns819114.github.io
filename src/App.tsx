@@ -1038,7 +1038,20 @@ export default function App() {
               {t.recommendationsDesc}
             </p>
             
-            <div className="grid md:grid-cols-3 gap-6">
+            <div className="grid md:grid-cols-4 gap-6">
+              <a 
+                href="https://ns819114.github.io/find_the_satoshi_nakamoto_key/" 
+                target="_blank" 
+                rel="noreferrer"
+                className="p-6 rounded-2xl bg-white/[0.02] border border-white/10 hover:bg-white/[0.05] hover:border-emerald-500/30 transition-all group"
+              >
+                <div className="w-12 h-12 rounded-xl bg-emerald-500/10 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                  <Globe className="w-6 h-6 text-emerald-400" />
+                </div>
+                <h3 className="text-lg font-semibold text-white mb-2 group-hover:text-emerald-400 transition-colors">Find the Key</h3>
+                <p className="text-sm text-zinc-500">Find Satoshi Nakamoto's Key</p>
+              </a>
+              
               <a 
                 href="https://kevingurke.github.io/" 
                 target="_blank" 
