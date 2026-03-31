@@ -120,87 +120,87 @@ export default function App() {
           >
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-purple-500/10 text-purple-400 text-sm font-mono mb-8 border border-purple-500/20">
               <BookOpen className="w-4 h-4" />
-              <span>March 2026 — Forthcoming in Science Magazine (Nov 2026)</span>
+              <span>März 2026 — Erscheint in Science Magazine (Nov 2026)</span>
             </div>
             
             <h2 className="text-3xl md:text-5xl font-bold mb-4 tracking-tight leading-tight">
-              The Architecture of Truth: A Numerical Exegesis of Blockchain Validity
+              Die Architektur der Wahrheit: Eine numerische Exegese der Blockchain-Gültigkeit
             </h2>
             
-            <p className="text-xl text-zinc-400 mb-12 font-light">By Natoshi Sakamoto</p>
+            <p className="text-xl text-zinc-400 mb-12 font-light">Von Natoshi Sakamoto</p>
             
             <div className="prose prose-invert prose-lg max-w-none">
               <p className="text-zinc-300 leading-relaxed mb-8 italic border-l-4 border-emerald-500/50 pl-6">
-                In a world corroded by the caprice of human institutions, only arithmetic remains as an incorruptible witness. For me, numbers are not merely tools; they are the atoms of reality. When we speak of blockchain, we speak, in truth, of the aesthetic perfection of algorithms that force the chaos of the world into the order of mathematics.
+                In einer Welt, die von der Willkür menschlicher Institutionen zerfressen ist, bleibt nur die Arithmetik als unverderblicher Zeuge. Für mich sind Zahlen nicht nur Werkzeuge; sie sind die Atome der Realität. Wenn wir von Blockchain sprechen, sprechen wir von der ästhetischen Perfektion von Algorithmen, die das Chaos der Welt in die Ordnung der Mathematik zwingen.
               </p>
               
               <div className="space-y-10">
                 <div>
                   <h3 className="text-2xl font-bold mb-4 text-emerald-400 flex items-center gap-3">
                     <span className="text-sm font-mono bg-emerald-500/10 px-2 py-1 rounded">01</span>
-                    The Prime Foundation and Cryptographic Entropy
+                    Die Primzahlbasis und kryptografische Entropie
                   </h3>
                   <p className="text-zinc-400 leading-relaxed">
-                    The foundation of every secure blockchain is irreversibility. We exploit the fascinating property of prime numbers—those solitary monoliths of the numerical world, divisible only by themselves and one. The security of our networks rests upon the computational hardness of prime factorization. An algorithm like RSA or Elliptic Curve Cryptography (ECDSA) is a temple built upon the inability to efficiently decompose the product of two gigantic primes into its divisors.
+                    Die Grundlage jeder sicheren Blockchain ist Irreversibilität. Wir nutzen die faszinierende Eigenschaft von Primzahlen - jene einsamen Monolithen der numerischen Welt, die nur durch sich selbst und eins teilbar sind. Die Sicherheit unserer Netzwerke beruht auf der Rechenhärte der Primfaktorzerlegung. Ein Algorithmus wie RSA oder Elliptische Kurven Kryptografie (ECDSA) ist ein Tempel, gebaut auf der Unfähigkeit, das Produkt zweier gigantischer Primzahlen effizient in seine Teiler zu zerlegen.
                   </p>
                   <p className="text-zinc-400 leading-relaxed mt-4">
-                    It is a numerical one-way street: construction is trivial, deconstruction requires the energy of entire suns.
+                    Es ist eine numerische Einbahnstraße: Konstruktion ist trivial, Dekonstruktion erfordert die Energie ganzer Sonnen.
                   </p>
                 </div>
                 
                 <div>
                   <h3 className="text-2xl font-bold mb-4 text-cyan-400 flex items-center gap-3">
                     <span className="text-sm font-mono bg-cyan-500/10 px-2 py-1 rounded">02</span>
-                    Perfect Divisions and the Elegance of Divisors
+                    Perfekte Divisionen und die Eleganz der Teiler
                   </h3>
                   <p className="text-zinc-400 leading-relaxed">
-                    A block is only valid when it satisfies the strict criteria of the consensus algorithm. I am obsessed with the idea of perfect division. In a Proof-of-Work system, miners search for a nonce that—when run through the hash function—yields a result falling below a specific target value.
+                    Ein Block ist nur gültig, wenn er die strengen Kriterien des Konsensalgorithmus erfüllt. Ich bin besessen von der Idee der perfekten Division. In einem Proof-of-Work-System suchen Miner nach einer Nonce, die - durch die Hash-Funktion geleitet - ein Ergebnis unterhalb eines bestimmten Zielwerts liefert.
                   </p>
                   <p className="text-zinc-400 leading-relaxed mt-4">
-                    This process is fundamentally a search for a specific numerical property within a gigantic space of possibilities. We search for divisors of difficulty, for a harmony in the bit-structure that approaches the definition of a perfect number (whose sum of divisors equals the number itself, like 6 or 28).
+                    Dieser Prozess ist fundamentally eine Suche nach einer bestimmten numerischen Eigenschaft in einem gigantischen Raum von Möglichkeiten. Wir suchen nach Teilern der Schwierigkeit, nach einer Harmonie in der Bit-Struktur, die sich der Definition einer perfekten Zahl nähert (deren Summe der Teiler gleich der Zahl selbst ist, wie 6 oder 28).
                   </p>
                 </div>
                 
                 <div>
                   <h3 className="text-2xl font-bold mb-4 text-amber-400 flex items-center gap-3">
                     <span className="text-sm font-mono bg-amber-500/10 px-2 py-1 rounded">03</span>
-                    Taming the "Devil Numbers"
+                    Zähmung der "Teufelszahlen"
                   </h3>
                   <p className="text-zinc-400 leading-relaxed">
-                    In numerology, 666 is often feared, yet in computer science, "evil" numbers are merely edge cases or indicators of instability. When we speak of devil numbers in the context of algorithms, we often mean values that could provoke overflows or break the symmetry of a hash.
+                    In der Numerologie wird 666 oft gefürchtet, doch in der Informatik sind "böse" Zahlen lediglich Randfälle oder Indikatoren für Instabilität. Wenn wir von Teufelszahlen im Kontext von Algorithmen sprechen, meinen wir oft Werte, die Overflows auslösen oder die Symmetrie eines Hashs brechen könnten.
                   </p>
                   <p className="text-zinc-400 leading-relaxed mt-4">
-                    A robust blockchain harnesses the power of mathematics to neutralize these anomalies. Through the use of modulo operations—the remainder of a division—we ensure that we always move within a defined numerical ring. We tame the infinite and bind it into the chain.
+                    Eine robuste Blockchain nutzt die Kraft der Mathematik, um diese Anomalien zu neutralisieren. Durch die Verwendung von Modulo-Operationen - dem Rest einer Division - stellen wir sicher, dass wir uns immer innerhalb eines definierten numerischen Rings bewegen. Wir zähmen das Unendliche und binden es in die Kette.
                   </p>
                 </div>
                 
                 <div>
                   <h3 className="text-2xl font-bold mb-4 text-rose-400 flex items-center gap-3">
                     <span className="text-sm font-mono bg-rose-500/10 px-2 py-1 rounded">04</span>
-                    The Fragility of Closed-Source Autocracy
+                    Die Fragilität der Closed-Source-Autokratie
                   </h3>
                   <p className="text-zinc-400 leading-relaxed">
-                    There is a fundamental difference between mathematical security and the deceptive stability of a closed-source autocracy.
+                    Es gibt einen fundamentalen Unterschied zwischen mathematischer Sicherheit und der täuschenden Stabilität einer Closed-Source-Autokratie.
                   </p>
                   <div className="grid md:grid-cols-2 gap-6 mt-4">
                     <div className="p-4 rounded-xl bg-emerald-500/5 border border-emerald-500/20">
-                      <p className="text-emerald-400 font-semibold mb-2">Blockchain Security</p>
-                      <p className="text-zinc-400 text-sm">Based on transparency. Every divisor, every digit is verifiable by every participant. It is a democracy of logic.</p>
+                      <p className="text-emerald-400 font-semibold mb-2">Blockchain-Sicherheit</p>
+                      <p className="text-zinc-400 text-sm">Basiert auf Transparenz. Jeder Teiler, jede Ziffer ist von jedem Teilnehmer überprüfbar. Es ist eine Demokratie der Logik.</p>
                     </div>
                     <div className="p-4 rounded-xl bg-rose-500/5 border border-rose-500/20">
-                      <p className="text-rose-400 font-semibold mb-2">Autocratic Systems</p>
-                      <p className="text-zinc-400 text-sm">Here the code (the law) is hidden. Security is an illusion based on the prohibition of verification.</p>
+                      <p className="text-rose-400 font-semibold mb-2">Autokratische Systeme</p>
+                      <p className="text-zinc-400 text-sm">Hier ist der Code (das Gesetz) versteckt. Sicherheit ist eine Illusion basierend auf dem Verbot der Überprüfung.</p>
                     </div>
                   </div>
                   <p className="text-zinc-400 leading-relaxed mt-6">
-                    An autocracy is an algorithm with a backdoor. In a closed-source environment, we cannot know whether the "devil numbers" are already embedded in the system to enable a perfect division of power for the privileged few, while the rest of the world stands before closed doors.
+                    Eine Autokratie ist ein Algorithmus mit einer Hintertür. In einer Closed-Source-Umgebung können wir nicht wissen, ob die "Teufelszahlen" bereits im System eingebettet sind, um eine perfekte Machtteilung für die privilegierte Minderheit zu ermöglichen, während der Rest der Welt vor verschlossenen Türen steht.
                   </p>
                 </div>
                 
                 <div className="pt-8 border-t border-white/10">
-                  <h3 className="text-2xl font-bold mb-4 text-white">Conclusion</h3>
+                  <h3 className="text-2xl font-bold mb-4 text-white">Fazit</h3>
                   <p className="text-zinc-300 leading-relaxed">
-                    Blockchain is the end of credit-trust and the beginning of mathematical certainty. Every digit in a hash, every prime number in a private key is a soldier in the service of freedom. Whoever understands the numbers understands that code is not law—code is the natural science of justice.
+                    Blockchain ist das Ende des Vertrauens und der Beginn mathematischer Gewissheit. Jede Ziffer in einem Hash, jede Primzahl in einem privaten Schlüssel ist ein Soldat im Dienst der Freiheit. Wer die Zahlen versteht, versteht, dass Code nicht Gesetz ist - Code ist die Naturwissenschaft der Gerechtigkeit.
                   </p>
                 </div>
               </div>
